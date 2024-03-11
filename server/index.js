@@ -16,7 +16,7 @@ const server = (req, res) => {
     // localhost:8000/search
     req.url = "search.html";
   } else {
-    res.end("404 Not Found");
+    req.url = req.url;
   }
 
   const parseURL = url.parse(req.url);
