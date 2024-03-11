@@ -12,7 +12,7 @@ const PORT = 8080;
 const server = (req, res) => {
   if (req.url === "/") {
     req.url = "index.html";
-  } else if (req.url === "/search") {
+  } else if (req.url === "/cars") {
     // localhost:8000/search
     req.url = "search.html";
   } else {
