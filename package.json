@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Responsive landing page for \"Binar Car Rental\" using HTML, CSS, JS, Bootstrap, Owl Carousel. Show list of car and create filtering feature.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "url": "^0.11.3"
+  }
+}
