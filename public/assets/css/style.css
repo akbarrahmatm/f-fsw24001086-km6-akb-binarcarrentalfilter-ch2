@@ -305,12 +305,72 @@ section.search-car {
 }
 
 .filter-card {
-  padding: 24px;
+  padding: 30px;
   border: none;
   margin-top: -55px;
 }
 
-a.btn.btn-success-search {
+.cars-result {
+  margin-top: 27px;
+}
+
+.cars-card {
+  width: 100%;
+  padding: 24px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 0px #00000026;
+}
+
+.cars-card .card-body {
+  padding: 0px;
+}
+img.cars-thumbnail {
+  height: 222px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 16px;
+}
+
+h5.cars-type {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+h5.cars-price {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.cars-item-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.cars-item-description {
+  font-size: 14px;
+}
+
+.cars-passenger,
+.cars-transmission {
+  margin-bottom: 8px;
+}
+
+.cars-year {
+  margin-bottom: 24px;
+}
+
+p.cars-description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+button.btn.btn-success-search {
   background: #5cb85f;
   color: white;
   padding: 12px 20px;

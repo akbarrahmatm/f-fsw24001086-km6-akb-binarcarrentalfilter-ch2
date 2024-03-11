@@ -90,42 +90,61 @@
     <section class="search-car">
         <div class="container">
             <div class="card filter-card shadow">
-                <div class="row container ">
-                    <div class="col-3 m-auto">
-                        <label for="tipeDriver">Tipe Driver</label>
-                        <select class="form-select" aria-label="Default select example" id="tipeDriver">
-                            <option value="default" selected>Pilih Tipe Driver &nbsp; &nbsp; &nbsp; &nbsp; </option>
-                            <option value="true">Dengan Supir</option>
-                            <option value="false">Tanpa Supir (Lepas Kunci)</option>
-                        </select>
-                    </div>
-                    <div class="col-3 m-auto">
-                        <label for="">Tanggal</label>
-                        <input type="date" class="form-control" placeholder="Pilih Tanggal" id="tanggal">
-                    </div>
-                    <div class="col-3 m-auto">
-                        <labe>Pilih Waktu</labe>
-                        <select class="form-select" aria-label="Default select example" id="waktuJemput">
-                            <option value="false" selected>Pilih Waktu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                            </option>
-                            <option value="08:00">08.00 WIB</option>
-                            <option value="09:00">09.00 WIB</option>
-                            <option value="10:00">10.00 WIB</option>
-                            <option value="11:00">11.00 WIB</option>
-                            <option value="12:00">12.00 WIB</option>
-                        </select>
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-lg-3 m-auto">
+                                <label for="tipeDriver">Tipe Driver</label>
+                                <select class="form-select" aria-label="Default select example" id="tipeDriver">
+                                    <option value="default" selected>Pilih Tipe Driver &nbsp; &nbsp; &nbsp; &nbsp;
+                                    </option>
+                                    <option value="true">Dengan Supir</option>
+                                    <option value="false">Tanpa Supir (Lepas Kunci)</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3 m-auto">
+                                <label for="">Tanggal</label>
+                                <input type="date" class="form-control" placeholder="Pilih Tanggal" id="tanggal">
+                            </div>
+                            <div class="col-lg-3 m-auto">
+                                <labe>Pilih Waktu</labe>
+                                <select class="form-select" aria-label="Default select example" id="waktuJemput">
+                                    <option value="false" selected>Pilih Waktu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    </option>
+                                    <option value="08:00">08.00 WIB</option>
+                                    <option value="09:00">09.00 WIB</option>
+                                    <option value="10:00">10.00 WIB</option>
+                                    <option value="11:00">11.00 WIB</option>
+                                    <option value="12:00">12.00 WIB</option>
+                                </select>
 
+                            </div>
+                            <div class="col-lg-3">
+
+                                <label class="fw-light">Jumlah Penumpang (optional)</label>
+                                <div class="input-group">
+                                    <input type="search" class="form-control border-end-0"
+                                        placeholder="Jumlah Penumpang" id="jumlahPenumpang" value="0">
+                                    <span class="input-group-text bg-white">
+                                        <img src="images/fi_users.png" width="20px" alt="">
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-2 m-auto">
-                        <a class="btn btn-success-search text-center" href="/cars">Mulai Sewa Mobil</a>
+                    <div class="col-lg-2 m-auto">
+                        <button class="btn btn-success-search text-center" id="load-btn">Mulai Sewa Mobil</button>
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="search-car-content">
+        <div class="container cars-result">
+            <div class="row" id="cars-container">
 
-        </div>
+            </div>
         </div>
     </section>
 
@@ -195,6 +214,12 @@
 
     <!-- Self Custom 'script.js' JS file -->
     <script src="./assets/js/script.js"></script>
+
+    <!-- CUSTOM -->
+    <script type="text/javascript" src="./assets/js/binar.js"></script>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
+    <script type="text/javascript" src="./assets/js/car.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 
 </html>
