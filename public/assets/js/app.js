@@ -28,7 +28,6 @@ class App {
   async load() {
     const cars = await Binar.listCars();
     Car.init(cars);
-    console.log(cars);
   }
 
   async loadFilter() {
@@ -72,7 +71,6 @@ class App {
         return penumpang;
       }
     });
-    console.log(cars);
     Car.init(cars);
   }
 
