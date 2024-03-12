@@ -2,6 +2,10 @@
 
 Responsive landing page for "Binar Car Rental" using HTML, CSS, JS, Bootstrap, Owl Carousel. Show list of car and create filtering feature.
 
+## Preview
+
+[Live Preview](https://f-fsw24001086-km6-akb-binarcarrentalfilter-ch2.vercel.app/)
+
 ## Repository Link
 
 [Array Challenge](https://github.com/akbarrahmatm/array-challenge-CH2-akbar) <br>
